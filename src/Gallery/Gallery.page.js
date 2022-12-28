@@ -15,7 +15,7 @@ import swim from "../assets/anime/swim.png";
 
 export const Gallery = () => {
   return (
-    <div className={styles.galleryContainer}>
+    <div className={styles.galleryContainer} id="gallery">
       <h1 className={styles.header}>Anime isn't just a hobby. It's an art.</h1>
       <div className={styles.gallery}>
         <img

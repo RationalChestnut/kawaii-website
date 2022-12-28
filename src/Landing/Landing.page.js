@@ -7,7 +7,7 @@ import profile from "../assets/profile.png";
 
 export const Landing = () => {
   return (
-    <div className={styles.homePageContainer}>
+    <div className={styles.homePageContainer} id="landing">
       <div className={styles.contentContainer}>
         <div className={styles.left}>
           <div className={styles.content}>

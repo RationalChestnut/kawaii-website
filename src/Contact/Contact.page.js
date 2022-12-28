@@ -1,12 +1,10 @@
 import React from "react";
 import styles from "./Contact.module.css";
-import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { IoMdPin } from "react-icons/io";
 
 export const Contact = () => {
   return (
-    <div className={styles.contactPageContainer} id="contact">
+    <div className={styles.contactPageContainer} id="contact-us">
       <h1 className={styles.contactTitle}>Get In Touch</h1>
       <p className={styles.contactSubDescription}>
         Any questions or feedback? Just send us a message!

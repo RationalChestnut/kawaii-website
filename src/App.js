@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <Landing id="landing" />
+      <Landing />
       <Gallery />
       <Contact />
     </div>
