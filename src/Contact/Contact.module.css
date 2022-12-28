@@ -1,5 +1,4 @@
 .contactPageContainer {
-  margin-top: 100px;
   padding: 3% 18%;
 }
 
@@ -21,7 +20,7 @@
 }
 
 .formDescription {
-  color: #9881d8;
+  color: white;
   max-width: 90%;
   line-height: 24px;
 }
@@ -33,22 +32,23 @@
 
 .contactTitle {
   text-align: center;
-  color: #060747;
+  color: white;
 }
 .contactSubDescription {
   text-align: center;
-  color: #7f7f95;
+  color: white;
 }
 
 .contactMethod {
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .icon {
   font-size: 20px;
   padding-right: 16px;
-  color: #fa949d;
+  color: white;
 }
 
 .formContainer {
