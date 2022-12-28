@@ -1,7 +1,6 @@
 import React from "react";
 
 import styles from "./Landing.module.css";
-import arrow from "../assets/arrow.png";
 import appStore from "../assets/svgs/appstore.svg";
 import googlePlay from "../assets/svgs/googleplay.svg";
 import profile from "../assets/profile.png";

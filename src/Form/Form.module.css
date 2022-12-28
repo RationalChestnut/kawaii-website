@@ -1,0 +1,57 @@
+.formContainer {
+  color: white;
+  text-align: center;
+}
+
+.formTitle {
+  font-size: 46px;
+}
+
+.formDescription {
+  font-size: 20px;
+}
+
+/* Style a form: */
+.form {
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+}
+
+.formLabel {
+  font-size: 20px;
+  text-align: left;
+}
+
+/* Style the input fields */
+.formInput {
+  width: 100%;
+  height: 80px;
+  padding: 6px 12px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: "Inter", sans-serif;
+}
+
+/* Style the submit button */
+.formButton {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  border-radius: 6px;
+}
+
+.formButton:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) {
+  .form {
+    width: 60%;
+  }
+}
