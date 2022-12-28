@@ -17,6 +17,30 @@
   max-width: 400px;
   border-radius: 12px;
   margin: 10px;
+  animation: out 0.25s;
+}
+
+.image:hover {
+  animation: popout 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes popout {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.15;
+  }
+}
+
+@keyframes out {
+  from {
+    scale: 1.15;
+  }
+  to {
+    scale: 1;
+  }
 }
 
 @media screen and (max-width: 1200px) {

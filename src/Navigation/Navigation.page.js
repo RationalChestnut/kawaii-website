@@ -4,7 +4,9 @@ import icon from "../assets/icon.png";
 
 export const Navigation = () => {
   return (
-    <div className={styles.navigationContainer}>
+    <div
+      className={`animate__animated animate__fadeInDown ${styles.navigationContainer}`}
+    >
       <div className={styles.logo}>
         <img src={icon} alt="logo" className={styles.logoImage} />
         <h1 className={styles.brandName}>Kawaii</h1>

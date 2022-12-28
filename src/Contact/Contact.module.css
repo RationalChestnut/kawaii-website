@@ -81,7 +81,7 @@
 .textarea {
   resize: none;
   font-family: "Inter", sans-serif;
-  height: 50px;
+  height: 75px;
   border-radius: 16px;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .submitButton:hover {
-  background-color: #e80b0b;
+  background-color: #d42a2a;
   cursor: pointer;
 }
 

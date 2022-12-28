@@ -9,7 +9,7 @@ export const Landing = () => {
   return (
     <div className={styles.homePageContainer} id="landing">
       <div className={styles.contentContainer}>
-        <div className={styles.left}>
+        <div className={`animate__animated animate__backInLeft ${styles.left}`}>
           <div className={styles.content}>
             <h1 className={styles.header}>Kawaii</h1>
             <h2 className={styles.subHeader}>
@@ -33,7 +33,9 @@ export const Landing = () => {
             </div>
           </div>
         </div>
-        <div className={styles.right}>
+        <div
+          className={`animate__animated animate__backInRight ${styles.right}`}
+        >
           <img src={profile} alt="App home page" className={styles.phone} />
         </div>
       </div>
