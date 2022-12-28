@@ -1,5 +1,4 @@
-import { Form } from "./Form/Form.page";
-import { Guide } from "./Guide/Guide.page";
+import { Gallery } from "./Gallery/Gallery.page";
 import { Landing } from "./Landing/Landing.page";
 import { Contact } from "./Contact/Contact.page";
 import { Navigation } from "./Navigation/Navigation.page";
@@ -9,8 +8,7 @@ function App() {
     <div className="App">
       <Navigation />
       <Landing id="landing" />
-      <Guide />
-      <Form id="form" />
+      <Gallery />
       <Contact />
     </div>
   );

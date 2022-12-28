@@ -6,4 +6,5 @@ body {
   scroll-behavior: smooth;
   padding: 0px;
   background-color: #1a1a1a;
+  overflow-x: hidden;
 }
