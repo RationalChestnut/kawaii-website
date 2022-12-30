@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import { Gallery } from "./Gallery/Gallery.page";
-import { Landing } from "./Landing/Landing.page";
-import { Contact } from "./Contact/Contact.page";
 import { Navigation } from "./Navigation/Navigation.page";
 import { isAndroid, isIOS } from "react-device-detect";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { MainNavigator } from "./MainNavigator";
+import { PrivacyPolicy } from "./PrivacyPolicy/PrivacyPolicy.page";
 
 function App() {
   useEffect(() => {
@@ -17,12 +17,13 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <Router>
       <Navigation />
-      <Landing />
-      <Gallery />
-      <Contact />
-    </div>
+      <Routes>
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/*" element={<MainNavigator />} />
+      </Routes>
+    </Router>
   );
 }
 
