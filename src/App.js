@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { Navigation } from "./Navigation/Navigation.page";
 import { isAndroid, isIOS } from "react-device-detect";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { MainNavigator } from "./MainNavigator";
@@ -18,7 +17,6 @@ function App() {
 
   return (
     <Router>
-      <Navigation />
       <Routes>
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/*" element={<MainNavigator />} />

@@ -1,6 +1,6 @@
 [[redirects]]
     from = "/privacy-policy"
-    to = "https://kawaiiapp.net/privacy-policy"
+    to = "/privacy-policy"
     status = 200
 
 [[redirects]]
