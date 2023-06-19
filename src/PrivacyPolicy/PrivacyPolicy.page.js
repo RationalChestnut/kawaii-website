@@ -323,13 +323,12 @@ export const PrivacyPolicy = () => {
         privacy notice frequently to be informed of how we are protecting your
         information. 14. HOW CAN YOU CONTACT US ABOUT THIS NOTICE? If you have
         questions or comments about this notice, you may email us at
-        aifutureapps@gmail.com or by post to: Kawaii - AI Image Generator 5110
-        River Hill Road Bethesda, MD 20816 United States 15. HOW CAN YOU REVIEW,
-        UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU? Based on the applicable
-        laws of your country, you may have the right to request access to the
-        personal information we collect from you, change that information, or
-        delete it. To request to review, update, or delete your personal
-        information, please submit a request form by clicking here.
+        aifutureapps@gmail. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
+        COLLECT FROM YOU? Based on the applicable laws of your country, you may
+        have the right to request access to the personal information we collect
+        from you, change that information, or delete it. To request to review,
+        update, or delete your personal information, please submit a request
+        form by clicking here.
       </p>
     </div>
   );

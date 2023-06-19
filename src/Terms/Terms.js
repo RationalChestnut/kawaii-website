@@ -12,12 +12,11 @@ export const Terms = () => {
     >
       <p>
         END USER LICENSE AGREEMENT Last updated January 26, 2023 Kawaii is
-        licensed to You (End-User) by Kawaii, located and registered at 5110
-        River Hill Road, Bethesda, __________ 20816, United States ("Licensor"),
-        for use only under the terms of this License Agreement. By downloading
-        the Licensed Application from Apple's software distribution platform
-        ("App Store") and Google's software distribution platform ("Play
-        Store"), and any update thereto (as permitted by this License
+        licensed to You (End-User) by Kawaii, located and registered at
+        ("Licensor"), for use only under the terms of this License Agreement. By
+        downloading the Licensed Application from Apple's software distribution
+        platform ("App Store") and Google's software distribution platform
+        ("Play Store"), and any update thereto (as permitted by this License
         Agreement), You indicate that You agree to be bound by all of the terms
         and conditions of this License Agreement, and that You accept this
         License Agreement. App Store and Play Store are referred to in this
@@ -246,8 +245,7 @@ export const Terms = () => {
         a "terrorist supporting" country; and that You are not listed on any US
         Government list of prohibited or restricted parties. 12. CONTACT
         INFORMATION For general inquiries, complaints, questions or claims
-        concerning the Licensed Application, please contact: Brian Mason 5110
-        River Hill Road Bethesda, __________ 20816 United States
+        concerning the Licensed Application, please contact:
         aifutureapps@gmail.com 13. TERMINATION The license is valid until
         terminated by Kawaii or by You. Your rights under this license will
         terminate automatically and without notice from Kawaii if You fail to

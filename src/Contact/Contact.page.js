@@ -25,7 +25,7 @@ export const Contact = () => {
         <div className={styles.formContainer}>
           <form
             className={styles.form}
-            action="https://getform.io/f/2df2a484-cf48-46f7-a92e-4c889048411a"
+            action="https://getform.io/f/6b9e6618-ba03-4109-a20b-10e0a4718bb2"
             method="POST"
           >
             <div className={styles.formSection}>
