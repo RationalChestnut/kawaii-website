@@ -8,7 +8,7 @@ export const MainNavigator = () => {
     <>
       <Navigation />
       <Landing />
-      <Gallery />
+      {/* <Gallery /> */}
       <Contact />
     </>
   );
